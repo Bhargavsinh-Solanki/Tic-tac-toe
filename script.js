@@ -1,7 +1,7 @@
 const cells = document.querySelectorAll('.cell');
 const status = document.getElementById('status');
 let gameBoard = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-let currentPlayer = '🐐';
+let currentPlayer = 'X';
 let gameActive = true;
 
 const winConditions = [
@@ -41,7 +41,7 @@ function handleMove(index) {
     return;
   }
 
-  currentPlayer = currentPlayer === '🐐' ? '🍇' : '🐐';
+  currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
   status.textContent = `Player ${currentPlayer}'s turn.`;
 }
 
