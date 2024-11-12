@@ -2,10 +2,11 @@
 Practicing programming for fun
 
 File Structure:
+```
 tictactoe
 |-- tictactoe.js
 |-- package.json
-
+```
 From Beginning
 Step 1: Create the package.json
 Run this command in your terminal inside the tictactoe/ folder to generate the package.json file:
