@@ -2,9 +2,9 @@
 Practicing programming for fun
 
 File Structure:
-tictactoe/
-├── tictactoe.js
-├── package.json
+tictactoe
+|-- tictactoe.js
+|-- package.json
 
 From Beginning
 Step 1: Create the package.json
