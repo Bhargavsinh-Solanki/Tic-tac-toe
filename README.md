@@ -11,6 +11,8 @@ From Beginning
 Step 1: Create the package.json
 Run this command in your terminal inside the tictactoe/ folder to generate the package.json file:
 ```npm init -y```
+
+
 Step 2: Install prompt-sync
 Install prompt-sync to handle user input:
 ```npm install prompt-sync```
